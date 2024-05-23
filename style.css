@@ -1,0 +1,1120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Agbalumo;
+
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-image: linear-gradient(rgba(12, 20, 9, 0.8), rgba(24, 22, 23, 0.7)), url(university-index.jpg);
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+nav {
+    display: flex;
+    padding: 3% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img {
+    width: 135px;
+}
+
+.nav-links {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(228, 223, 217);
+    font-size: 32px;
+}
+
+.text-box p {
+    color: rgb(63, 63, 155);
+    margin-top: 20px;
+    font-size: 70px;
+    margin-bottom: 20px;
+
+}
+
+.text-box h2 {
+    color: rgb(175, 175, 175);
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 50px;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    font-size: 20px;
+}
+
+nav ul {
+    padding: 30px;
+}
+
+/*we are adding trasition on navbar*/
+nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 4px;
+    background-color: rgb(16, 92, 92);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+nav ul li:hover::after {
+    width: 100%;
+
+}
+
+.text-box {
+    color: rgb(146, 137, 125);
+    text-align: center;
+    width: 70%;
+    font-size: 55px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(197, 190, 190);
+    padding: 12px 50px;
+    border: 1px solid;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    font-size: 25px;
+
+}
+
+/*button changing color*/
+.hero-btn:hover {
+    border: 1px solid rgb(77, 75, 75);
+    background: rgb(148, 131, 131);
+    transition: .5s;
+    font-size: 28px;
+}
+
+/*courses section here */
+.courses {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    background: rgb(148, 90, 90);
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+
+
+.courses h1 {
+
+    font-size: 90px;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+p {
+    line-height: 22px;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 170px;
+}
+
+.column {
+    border: 1px solid;
+    margin-left: 15px;
+    height: 400px;
+    background-color: rgb(191, 188, 194);
+
+    padding: 10px 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    overflow: hidden;
+
+}
+
+.column h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.column:hover {
+    box-shadow: 12px 12px 12px 12px rgba(3, 3, 3, 0.6);
+}
+
+/*here menu ico which is hideen on full c=screen and show on small screen*/
+
+nav .fa {
+    display: none;
+}
+
+/*HERE START THE CAMPUS SECTION*/
+.campus {
+
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(47, 121, 121);
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.campus h1 {
+    padding-top: 25px;
+}
+
+.column2 {
+
+    position: relative;
+    flex-basis: 32%;
+    height: 700px;
+    margin-bottom: 30px;
+
+}
+
+.column2 img {
+    width: 100%;
+    height: 600px;
+    border-radius: 60px;
+
+}
+
+.layer {
+    background: transparent;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    transition: 0.5s;
+    color: rgb(208, 218, 214);
+    font: 146px;
+
+
+}
+
+.layer h3 {
+
+    color: rgb(248, 244, 238);
+    font-size: 32px;
+    font-weight: 600;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+
+}
+
+.layer:hover {
+    background: rgba(253, 253, 253, 0.2);
+}
+
+.layer:hover h3 {
+    background: transparent;
+    bottom: 50%;
+}
+
+/*animation  on campus*/
+.fac {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background: rgb(70, 70, 134);
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+/*fac is actually we are talking about falicites*/
+.column3 {
+    flex-basis: 31%;
+
+
+}
+
+.fac img {
+    border-radius: 10px;
+    width: 350px;
+}
+
+.fac h1 {
+    margin-bottom: 30px;
+}
+
+.fac p {
+    margin-bottom: 20px;
+}
+
+/*HERE TESTIMONIAL START*/
+.testimonials {
+
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    background: rgb(148, 129, 167);
+    padding-bottom: 20px;
+
+
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 300px;
+}
+
+.column4 {
+    flex-basis: 40%;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 0px 10px;
+    margin-right: 10px;
+    background-color: rgb(168, 168, 172);
+    cursor: pointer;
+    display: flex;
+
+
+
+
+
+}
+
+.column4 img {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 0px;
+
+
+}
+
+.column4 h1 {
+    margin-top: 10px;
+}
+
+.column4 p {
+    font-size: 10px;
+    margin-top: 90px;
+    margin-left: 10px;
+
+}
+
+.stars .fa {
+    color: rgb(43, 39, 37);
+    padding-bottom: 20px;
+}
+
+/*end here*/
+
+/*here media query technique*/
+@media(max-width: 1000px) {
+
+    .header {
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        position: relative;
+        background-size: cover;
+        background-image: linear-gradient(rgba(12, 20, 9, 0.8), rgba(24, 22, 23, 0.7)), url(university-index.jpg);
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+
+    nav {
+        display: flex;
+        padding: 3% 6%;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    nav img {
+        width: 80px;
+    }
+
+    .nav-links {
+        text-align: right;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgb(228, 223, 217);
+        font-size: 15px;
+    }
+
+    .text-box p {
+        color: rgb(63, 63, 155);
+        margin-top: 20px;
+        font-size: 40px;
+        margin-bottom: 20px;
+
+    }
+
+    .text-box h2 {
+        color: rgb(175, 175, 175);
+        font-weight: 100;
+        font-size: 12px;
+        padding-bottom: 50px;
+
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+
+    }
+
+    nav ul {
+        padding: 30px;
+    }
+
+    /*we are adding trasition on navbar*/
+    nav ul li::after {
+        content: '';
+        width: 0%;
+        height: 4px;
+        background-color: rgb(16, 92, 92);
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+
+    }
+
+    nav ul li:hover::after {
+        width: 100%;
+
+    }
+
+    .text-box {
+        color: rgb(146, 137, 125);
+        text-align: center;
+        width: 70%;
+
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+
+
+    }
+
+
+    .hero-btn {
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(197, 190, 190);
+        padding: 12px 50px;
+        border: 1px solid;
+        background: transparent;
+        cursor: pointer;
+        position: relative;
+        font-size: 15px;
+
+    }
+
+    /*button changing color*/
+    .hero-btn:hover {
+        border: 1px solid rgb(77, 75, 75);
+        background: rgb(148, 131, 131);
+        transition: .5s;
+        font-size: 20px;
+    }
+
+    /*courses section here */
+    .courses {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding-top: 70px;
+        background: rgb(148, 90, 90);
+        padding-bottom: 15px;
+        padding-right: 10px;
+    }
+
+
+    .courses h1 {
+
+        font-size: 70px;
+        color: black;
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+
+    p {
+        line-height: 22px;
+        font-weight: 300;
+        font-size: 16px;
+        padding-bottom: 60px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 170px;
+    }
+
+    .column {
+        border: 1px solid;
+        margin-left: 15px;
+        height: 400px;
+        background-color: rgb(191, 188, 194);
+
+        padding: 10px 20px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .column h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 23px;
+
+    }
+
+    .column h3 {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .column:hover {
+        box-shadow: 5px 5px 5px 5px rgba(3, 3, 3, 0.6);
+    }
+
+    /*here menu ico which is hideen on full c=screen and show on small screen*/
+
+    nav .fa {
+        display: none;
+    }
+
+    /*HERE START THE CAMPUS SECTION*/
+    .campus {
+
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        background-color: rgb(47, 121, 121);
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+
+    .campus h1 {
+        padding-top: 40px;
+        margin-top: 70px;
+    }
+
+    .column2 {
+
+        position: relative;
+        flex-basis: 32%;
+        height: 330px;
+        margin-bottom: 30px;
+        font-size: 30px;
+
+    }
+
+    .column2 img {
+
+        height: 300px;
+        border-radius: 60px;
+
+    }
+
+    .layer {
+        background: transparent;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        transition: 0.5s;
+        color: rgb(208, 218, 214);
+        font: 146px;
+
+
+    }
+
+    .layer h3 {
+
+        color: rgb(248, 244, 238);
+        font-size: 32px;
+        font-weight: 600;
+        bottom: 0;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        transition: 0.5s;
+
+    }
+
+    .layer:hover {
+        background: rgba(253, 253, 253, 0.2);
+    }
+
+    .layer:hover h3 {
+        background: transparent;
+        bottom: 50%;
+    }
+
+    /*animation  on campus*/
+    .fac {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        background: rgb(70, 70, 134);
+    }
+
+    .row3 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 70px;
+    }
+
+    /*fac is actually we are talking about falicites*/
+    .column3 {
+        flex-basis: 31%;
+
+
+    }
+
+    .fac img {
+        border-radius: 10px;
+        width: 200px;
+    }
+
+    .fac h1 {
+        margin-bottom: 30px;
+    }
+
+    .fac p {
+        margin-bottom: 20px;
+    }
+
+    /*HERE TESTIMONIAL START*/
+    .testimonials {
+
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        background: rgb(148, 129, 167);
+        padding-bottom: 20px;
+        font-size: 20px;
+
+        padding-top: 25px;
+    }
+
+    .row4 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 300px;
+    }
+
+    .column4 {
+        flex-basis: 40%;
+        border-radius: 5px;
+        border: 1px solid;
+        padding: 0px 10px;
+        margin-right: 10px;
+        background-color: rgb(168, 168, 172);
+        cursor: pointer;
+        display: flex;
+
+
+
+
+
+
+    }
+
+    .column4 img {
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 0px;
+
+
+    }
+
+    .column4 h1 {
+        margin-top: 20px;
+
+    }
+
+    .column4 p {
+        font-size: 10px;
+        margin-top: 90px;
+        margin-left: 10px;
+
+    }
+
+    .stars .fa {
+        color: rgb(43, 39, 37);
+        padding-bottom: 20px;
+    }
+
+    .cta {
+        margin: 30px auto;
+        background-color: rgb(86, 117, 117);
+        padding: 60px 50px;
+        text-align: center;
+        font-size: 1px;
+    }
+
+    .cta h1 {
+        font-size: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(max-width: 700px) {
+    .text-box p {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .text-box h2 {
+        font-size: 10px;
+        padding-bottom: 15px;
+    }
+
+    .nav-link ul li {
+        display: block;
+        background: brown;
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: rgb(106, 109, 107);
+        height: 100vh;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        text-align: left;
+        width: 200px;
+        right: -200px;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: block;
+        color: rgb(124, 122, 122);
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 30px;
+        cursor: pointer;
+
+    }
+
+    nav img {
+        width: 50px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    /*course*/
+    .courses {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding-top: 70px;
+        background: rgb(148, 90, 90);
+
+        padding-right: 10px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    .courses h1 {
+
+        font-size: 50px;
+        color: black;
+        font-weight: 600;
+        padding-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    p {
+        line-height: 22px;
+        font-weight: 300;
+        font-size: 16px;
+        padding-bottom: 60px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+    }
+
+    .column {
+        border: 1px solid;
+        margin-left: 15px;
+        height: 200px;
+        margin-bottom: 30px;
+        background-color: rgb(191, 188, 194);
+
+        padding: 10px 20px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        overflow: hidden;
+
+    }
+
+    .column h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .column:hover {
+        box-shadow: 1px 1px 1px 1px rgba(3, 3, 3, 0.6);
+    }
+
+    /*end cousrse*/
+    .campus {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+
+    .campus h1 {
+        font-size: 30px;
+    }
+
+    .row3 {
+        display: block
+    }
+
+    .row4 {
+        display: block;
+    }
+
+    .column4 {
+        flex-basis: 32%;
+        border-radius: 10px;
+        border: 10px solid;
+        padding: 10px 10px;
+        margin-right: 10px;
+        background-color: blue;
+        cursor: pointer;
+        display: block;
+        height: 350px;
+        margin-bottom: 20px;
+
+
+
+
+    }
+
+    .fac {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        background: rgb(70, 70, 134);
+    }
+
+    .row3 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 70px;
+    }
+
+    /*fac is actually we are talking about falicites*/
+    .column3 {
+        flex-basis: 31%;
+        border: 1px solid;
+
+    }
+
+    .fac img {
+        border-radius: 10px;
+        width: 150px;
+    }
+
+    .fac h1 {
+        margin-bottom: 30px;
+    }
+
+    .fac p {
+        margin-bottom: 20px;
+    }
+
+
+    .testimonials {
+
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        background: rgb(148, 129, 167);
+        padding-bottom: 20px;
+height: 500px;
+    }
+
+    .row4 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 300px;
+    }
+
+    .column4 {
+        flex-basis: 40%;
+        border-radius: 5px;
+        border: 1px solid;
+        padding: 0px 5px;
+        margin-right: 10px;
+        background-color: rgb(168, 168, 172);
+        cursor: pointer;
+        display: flex;
+height: 350px;
+    }
+
+    .column4 img {
+        border-radius: 100px;
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 0px;
+    
+
+
+    }
+
+    .column4 h1 {
+        margin-top: 1px;
+    }
+
+    .column4 p {
+        font-size: 10px;
+        margin-top: 90px;
+        margin-left: 10px;
+
+    }
+
+    .stars .fa {
+        color: rgb(43, 39, 37);
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+
+}
+
+
+
+    .cta {
+        margin: 30px auto;
+        background-color: rgb(86, 117, 117);
+        padding: 60px 50px;
+        text-align: center;
+
+    }
+
+    .cta h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+    /*phle hero.btn2 tha ab bta 1 pr krddia h*/
+    /*
+.hero-btn2{
+    border: 10px solid rgb(20, 20, 20);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(170, 135, 135);
+    padding: 10px 50px;
+    border: 1px solid;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+
+   
+}.hero-btn2:hover {
+    border: 1px solid rgb(151, 14, 14);
+    background: rgb(151, 23, 23);
+    transition: .5s;
+    font-size: 30px;
+}
+*/
+    .footer {
+        text-align: center;
+        width: 100%;
+        padding: 50px 50px;
+        background: rgb(7, 7, 7);
+        color: antiquewhite;
+        margin-top: 20px;
+    }
+
+    .footer h3 {
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 50px;
+
+    }
+
+    .icons .fa {
+        color: rgb(37, 147, 167);
+        cursor: pointer;
+        padding: 18px 0;
+    }
+
+    /*ABOUT PAGE*/
+    .sub-header {
+        height: 50vh;
+        width: 100%;
+        background-color: rgb(167, 156, 142);
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 20px;
+
+    }
+
+    .aboutus {
+        width: 100%;
+        margin: 30px auto;
+
+
+    }
+
+    .row-about {
+        padding: 30px 30px;
+
+
+
+
+
+    }
+
+    .column-about {
+        text-align: center;
+        padding: 30px 30px;
+
+        color: beige;
+        margin-bottom: 30px;
+        background-color: rgb(0, 0, 0);
+
+    }
+
+
+
+
+    .img-about img {
+        width: 400PX;
+
+    }
+
+    /*contact comment form*/
+    .comment {
+        border: 2px solid;
+        margin: 50px 0;
+        padding: 10px 20px;
+        text-align: center;
+        background-color: azure;
+
+    }
+
+    .comment h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .comment-form input {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: rgb(161, 160, 157);
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .comment-form button {
+        background: rgb(182, 182, 171);
+        color: black;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+    .comment-form textarea {
+        margin-top: 20px;
+    }
+
+    .map {
+        margin: 40px;
+    }
+
+    .map iframe {
+        width: 100%;
+
+
+    }
+
+    .address {
+        border: 1px solid rgb(255, 253, 253);
+        width: 80%;
+    }
+
+    .address div {
+        margin: 0 100px;
+
+
+
+    }
+
+    .address-contact .fa {
+        margin-right: 50px;
+        margin-left: 30px;
+
+    }

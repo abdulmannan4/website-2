@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Slab:wght@100&display=swap"
+        rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+</head>
+
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="index.html">
+                <img src="uni-logo.png" alt="logo">
+            </a>
+            <div class="nav-links" id="navlinks">
+
+                <i class="fa fa-times" onclick="closes()"></i>
+
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="openn()"></i>
+        </nav>
+        <div class="text-box">
+            <p>Anatolia University
+            </p>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eligendi odit exercitationem, quia
+                laudantium voluptatibus, ratione illum quis commodi aspernatur soluta reiciendis consequatur, mollitia
+                molestiae temporibus asperiores dicta veniam nulla.</h2>
+            <a href="" class="hero-btn">Learn More</a>
+
+        </div>
+    </section>
+    <!--this is here a menu bar from left code-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function openn() {
+            navlinks.style.right = "0";
+
+        }
+        function closes() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    <section class="courses">
+        <h1>Our Courses</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio facilis repellendus voluptatum minus quos
+            </p>
+        <div class="row">
+            <div class="column">
+                <h1>Information Technology</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis officia, commodi molestias in
+                    atque numquam cum earum. Eligendi voluptatum, ratione animi sequi id neque dicta laudantium porro
+                    dolor nobis magnam.</h3>
+            </div>
+            <div class="column">
+                <h1>Chemical Engineering</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis officia, commodi molestias in
+                    atque numquam cum earum. Eligendi voluptatum, ratione animi sequi id neque dicta laudantium porro
+                    dolor nobis magnam.</h3>
+            </div>
+            <div class="column">
+                <h1>Law</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis officia, commodi molestias in
+                    atque numquam cum earum. Eligendi voluptatum, ratione animi sequi id neque dicta laudantium porro
+                    dolor nobis magnam.</h3>
+            </div>
+            <div class="column">
+                <h1>Finance</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis officia, commodi molestias in
+                    atque numquam cum earum. Eligendi voluptatum, ratione animi sequi id neque dicta laudantium porro
+                    dolor nobis magnam.</h3>
+            </div>
+
+        </div>
+    </section>
+    <section class="campus">
+        <h1>OUR GLOBAL CAMPUS</h1>
+
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus totam reprehenderit, saepe corporis
+            laudantium ab. Similem?</P>
+        <div class="row">
+            <div class="column2">
+                <img src="campus2.jpg"
+                    alt="">
+                <div class="layer">
+                    <h3>
+                        LONDON
+                    </h3>
+                </div>
+            </div>
+            <div class="column2">
+                <img src="campus3.jpg"
+                    alt="">
+                <div class="layer">
+                    <h3>
+                        Liverpool
+                    </h3>
+                </div>
+            </div>
+            <div class="column2">
+                <img src="campus1.jpg"
+                    alt="">
+                <div class="layer">
+                    <h3>
+                        Bristol
+                    </h3>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="fac">
+        <h1>FACILITIES</h1>
+
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, non! Beatae iure reiciendis in cum quaerat, fuga
+            necessitatibus reprehenderit aut odio maxime, accusamus quas libero voluptatem, iste rerum facere est!</P>
+        <div class="row3">
+            <div class="column3">
+                <img src="department.jpg" alt="">
+
+                <h3>
+                    Qualified Staff
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat perspiciatis deleniti maxime
+                    quibusdam quis maiores doloribus quidem totam vero, a at provident sunt porro dolores voluptatem
+                    velit in non!</p>
+            </div>
+            <div class="column3">
+                <img src="department2.jpg" alt="">
+
+                <h3>
+                    Class Room
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat perspiciatis deleniti maxime
+                    quibusdam quis maiores doloribus quidem totam vero, a at provident sunt porro dolores voluptatem
+                    velit in non!</p>
+
+            </div>
+            <div class="column3">
+                <img src="department3.jpg" alt="">
+
+                <h3>
+                    Auditorium
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugiat perspiciatis deleniti maxime
+                    quibusdam quis maiores doloribus quidem totam vero, a at provident sunt porro dolores voluptatem
+                    velit in non!</p>
+    </section>
+    <section class="testimonials">
+        <h1>
+          Testimonials
+        </h1>
+        <p>Lorem ipsum dolor
+        </p>
+        <div class="row4">
+
+            <div class="column4">
+
+                <img src="prof2.jpg" alt="">
+                <div class="stars">
+                    <p>Lorem ipsum dolor ss doloribus quidem totam vero, a at provident sunt porro dolores voluptatem
+                        velit
+                        in non!</p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+            </div>
+            <div class="column4">
+
+                <img src="prof1.jpg" alt="">
+                <div class="stars">
+                    <p>Lorem ipsum dolores doloribus quidem totam vero, a at provident sunt porro dolores voluptatem
+                        velit
+                        in non!</p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>ENROLL FOR VARIOUS ONLINE COURSES <br>NOW FROM World</h1>
+
+        <a class="hero-btn" href="contact.html">CONTACT US NOW</a>
+    </section>
+    <section class="footer">
+        <h3>ABOUT US</h3>
+        <p>Lorem, ipsum dolor sit</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+        <p> MADE with <i class="fa fa-heart" aria-hidden="true"></i>by mannan</p>
+    </section>
+
+</body>
+
+</html>

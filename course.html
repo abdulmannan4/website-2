@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website University Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Slab:wght@100&display=swap"
+        rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html">
+                <img src="uni-logo.png" alt="logo">
+            </a>
+            <div class="nav-links" id="navlinks">
+
+                <i class="fa fa-times" onclick="closes()"></i>
+
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                    <li > <b ><a href="course.html" style="color: black;">COURSE</a></b></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="openn()"></i>
+        </nav>
+        <h1>Courses</h1>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function openn() {
+            navlinks.style.right = "0";
+
+        }
+        function closes() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+ <section class="courses">
+    <h1>Our Courses</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio facilis repellendus voluptatum minus quos
+        </p>
+    <div class="row">
+        <div class="column">
+            <h1>Information Technology</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis officia, commodi molestias in
+                atque numquam cum earum. Eligendi voluptatum, ratione animi sequi id neque dicta laudantium porro
+                dolor nobis magnam.</h3>
+        </div>
+        <div class="column">
+            <h1>Chemical Engineering</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis officia, commodi molestias in
+                atque numquam cum earum. Eligendi voluptatum, ratione animi sequi id neque dicta laudantium porro
+                dolor nobis magnam.</h3>
+        </div>
+        <div class="column">
+            <h1>Law</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis officia, commodi molestias in
+                atque numquam cum earum. Eligendi voluptatum, ratione animi sequi id neque dicta laudantium porro
+                dolor nobis magnam.</h3>
+        </div>
+        <div class="column">
+            <h1>Finance</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis officia, commodi molestias in
+                atque numquam cum earum. Eligendi voluptatum, ratione animi sequi id neque dicta laudantium porro
+                dolor nobis magnam.</h3>
+        </div>
+
+    </div>
+</section>
+    
+
+
+</section>
+<section class="footer">
+    <h3>ABOUT US</h3>
+    <p>Lorem, ipsum dolor sit</p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+    </div>
+    <p> MADE with <i class="fa fa-heart" aria-hidden="true"></i>by mannan</p>
+</section>
+
+    
+</body>
+
+</html>
